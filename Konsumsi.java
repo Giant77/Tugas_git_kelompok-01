@@ -19,18 +19,34 @@ public class Konsumsi extends Produk {
         this.tglExpired = tglExpired;
     }
 
+    /**
+     * Mengembalikan jenis dari produk konsumsi
+     * @return jenis produk
+     */
     public String getJenis() {
         return jenis;
     }
 
+    /**
+     * Mengembalikan tanggal produk akan expired
+     * @return tanggal expired
+     */
     public String getTglExpired() {
         return tglExpired;
     }
 
+    /**
+     * Mengatur kembali 
+     * @param jenis
+     */
     public void setJenis(String jenis) {
         this.jenis = jenis;
     }
 
+    /**
+     * mengubah tanggal produk akan expired
+     * @param tglExpired
+     */
     public void setTglExpired(String tglExpired) {
         this.tglExpired = tglExpired;
     }

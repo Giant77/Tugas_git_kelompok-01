@@ -17,10 +17,18 @@ public class Kecantikan extends Produk {
         this.isOrganic = isOrganic;
     }
 
+    /**
+     * Mengembalikan apakah produk terbuat dari bahan alami
+     * @return
+     */
     public boolean getIsOrganic() {
         return isOrganic;
     }
 
+    /**
+     * Mengupdate apakah produk telah menggunakan bahan alami
+     * @param isOrganic
+     */
     public void setIsOrganic(boolean isOrganic) {
         this.isOrganic = isOrganic;
     }

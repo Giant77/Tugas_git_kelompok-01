@@ -19,18 +19,34 @@ public class Pembersih extends Produk{
         this.aroma = aroma;
     }
 
+    /**
+     * Mengembalikan apakah produk ramah lingkungan
+     * @return 
+     */
     public boolean getIsEcoFriendly() {
         return isEcoFriendly;
     }
 
+    /**
+     * Mengembalikan aroma dari produk
+     * @return
+     */
     public String getAroma() {
         return aroma;
     }
 
+    /**
+     * Mengupdate apakah produk ramah lingkungan
+     * @param isEcoFriendly
+     */
     public void setIsEcoFriendly(boolean isEcoFriendly) {
         this.isEcoFriendly = isEcoFriendly;
     }
 
+    /**
+     * Mengupdate aroma dari produk
+     * @param aroma
+     */
     public void setAroma(String aroma) {
         this.aroma = aroma;
     }
