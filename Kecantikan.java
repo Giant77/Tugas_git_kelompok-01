@@ -11,9 +11,9 @@ public class Kecantikan extends Produk {
     /**
      * Constructor for objects of class Kecantikan
      */
-    public Kecantikan(String merk, int harga, int stokProduk, boolean isOrganic) {
+    public Kecantikan(int produkId, String merk, int harga, int stokProduk, boolean isOrganic) {
         // initialise instance variables
-        super(merk, harga, stokProduk);
+        super(produkId, merk, harga, stokProduk);
         this.isOrganic = isOrganic;
     }
 

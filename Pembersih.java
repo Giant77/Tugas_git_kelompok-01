@@ -12,9 +12,9 @@ public class Pembersih extends Produk{
     /**
      * Constructor for objects of class Pembersih
      */
-    public Pembersih(String merk, int harga, int stokProduk, boolean isEcoFriendly, String aroma){
+    public Pembersih(int produkId,String merk, int harga, int stokProduk, boolean isEcoFriendly, String aroma){
         // initialise instance variables
-        super(merk, harga, stokProduk);
+        super(produkId, merk, harga, stokProduk);
         this.isEcoFriendly = isEcoFriendly;
         this.aroma = aroma;
     }

@@ -12,9 +12,9 @@ public class Konsumsi extends Produk {
     /**
      * Constructor for objects of class Konsumsi
      */
-    public Konsumsi(String merk, int harga, int stokProduk, String jenis, String tglExpired) {
+    public Konsumsi(int produkId, String merk, int harga, int stokProduk, String jenis, String tglExpired) {
         // initialise instance variables
-        super(merk, harga, stokProduk);
+        super(produkId, merk, harga, stokProduk);
         this.jenis = jenis;
         this.tglExpired = tglExpired;
     }
