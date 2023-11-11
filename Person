@@ -22,7 +22,7 @@ public abstract class Person {
         return name;
     }
 
- /**
+    /**
      * Metode abstrak untuk menampilkan informasi individu.
      */
     public abstract void displayInfo();
