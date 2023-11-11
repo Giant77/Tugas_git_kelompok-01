@@ -1,6 +1,6 @@
 
 /**
- * Write a description of class Minimarket here.
+ * Ini adalah kelas yang merepresentasikan sebuah minimarket.
  *
  * @author (Willy J.A & Raihan F)
  * @version (11 november 2023)
@@ -11,7 +11,7 @@ public class Minimarket
     private int x;
 
     /**
-     * Constructor for objects of class Minimarket
+     * Konstruktor untuk objek kelas Minimarket
      */
     public Minimarket()
     {
@@ -20,10 +20,10 @@ public class Minimarket
     }
 
     /**
-     * An example of a method - replace this comment with your own
+     * An example of a method 
      *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * @param  quantity  Jumlah produk yang ingin ditambahkan
+     * @return    Total produk dalam minimarket setelah penambahan
      */
     public int sampleMethod(int y)
     {
