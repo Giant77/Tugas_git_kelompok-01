@@ -2,8 +2,8 @@
 /**
  * Write a description of class Minimarket here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Willy J.A & Raihan F)
+ * @version (11 november 23)
  */
 public class Minimarket
 {
