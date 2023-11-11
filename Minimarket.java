@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 
 /**
- * Ini adalah kelas yang merepresentasikan sebuah minimarket.
+ * Write a description of class Minimarket here.
  *
- * @author (Willy J.A & Raihan F)
- * @version (11 november 2023)
+ * @author Willy J.A. & Raihan F.
+ * @version 5 nov 2023
  */
 public class Minimarket {
     private String minimarketName;
