@@ -1,0 +1,36 @@
+/**
+ * Kelas Pembeli adalah turunan dari kelas Person yang merepresentasikan pembeli
+ * di minimarket. Mencakup atribut saldo dan metode untuk mengambil saldo serta
+ * mengimplementasikan metode displayInfo untuk menampilkan informasi pembeli.
+ */
+public class Pembeli extends Person {
+    private double balance;
+
+    /**
+     * Konstruktor untuk objek kelas Pembeli.
+     * @param name Nama pembeli.
+     * @param balance Saldo pembeli.
+     */
+    public Pembeli(String name, double balance) {
+        super(name);
+        this.balance = balance;
+    }
+
+    /**
+     * Metode untuk mengambil saldo pembeli.
+     * @return Saldo pembeli.
+     */
+    public double getBalance() {
+        return balance;
+    }
+
+    /**
+     * Metode untuk menampilkan informasi pembeli.
+     */
+    @Override
+    public void displayInfo() {
+        System.out.println("Pembeli: " + getName());
+        System.out.println("Saldo: Rp " + getBalance());
+    }
+}
+
