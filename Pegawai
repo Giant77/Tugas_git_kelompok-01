@@ -1,7 +1,6 @@
 /**
  * Kelas Pegawai adalah turunan dari kelas Person yang merepresentasikan pegawai
- * di minimarket. Mencakup atribut gaji dan metode untuk mengambil gaji serta
- * mengimplementasikan metode displayInfo untuk menampilkan informasi pegawai.
+ * di minimarket. 
  */
 public class Pegawai extends Person {
     private double salary;
