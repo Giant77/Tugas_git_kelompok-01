@@ -3,7 +3,7 @@
  * Write a description of class Minimarket here.
  *
  * @author (Willy J.A & Raihan F)
- * @version (11 november 23)
+ * @version (11 november 2023)
  */
 public class Minimarket
 {
