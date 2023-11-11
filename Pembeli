@@ -1,6 +1,8 @@
 /**
- * Kelas Pembeli adalah turunan dari kelas Person yang merepresentasikan pembeli
- * di minimarket. 
+ * Write a description of class Pembeli here.
+ *
+ * @author Willy J.A. & Raihan F.
+ * @version 5 nov 2023
  */
 public class Pembeli extends Person {
     private double balance;
