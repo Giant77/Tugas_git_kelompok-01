@@ -8,18 +8,16 @@ import java.util.ArrayList;
  */
 public class Minimarket {
     private String minimarketName;
-    private ArrayList<Produk> productBought;
-    private Pembeli pembeli;
+    private ArrayList<Produk> productBought = new ArrayList<Produk>();
     private double totalRevenue;
-    private ArrayList<Pegawai> listPegawai;
+    private ArrayList<Pegawai> listPegawai = new ArrayList<Pegawai>();
 
     /**
      * Konstruktor untuk objek kelas Minimarket.
      * @param name Nama minimarket.
      */
-    public Minimarket(String minimarketName, String namaPembeli, double wallet, String namaPegawai, double sallary) {
+    public Minimarket(String minimarketName) {
         this.minimarketName = minimarketName;
-        this.pembeli = new Pembeli(namaPembeli, wallet);
         this.totalRevenue = 0;
     }
 
@@ -62,7 +60,7 @@ public class Minimarket {
         return totalHarga;
     }
 
-    public void buyProduct() {
+    public void buyProduct(Pembeli pembeli) {
         double totalHarga;
 
         System.out.println("Barang-barang yang akan dibeli: ");
@@ -77,11 +75,8 @@ public class Minimarket {
             
             pembeli.setBalance(pembeli.getBalance() - totalHarga);
             totalRevenue += totalHarga;
-        }
-        
-
+        }   
     }
-
 
     /**
      * Metode untuk menampilkan informasi tentang minimarket, termasuk jumlah produk
