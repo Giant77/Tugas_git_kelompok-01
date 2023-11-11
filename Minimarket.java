@@ -64,8 +64,8 @@ public class Minimarket {
 
         minimarket.showInfo();
 
-        Pegawai pegawai = new Pegawai("John", 2000000);
-        Pembeli pembeli = new Pembeli("Alice", 100000);
+        Pegawai pegawai = new Pegawai("Raihan", 2000000);
+        Pembeli pembeli = new Pembeli("Willy", 100000);
 
         pegawai.displayInfo();
         pembeli.displayInfo();
