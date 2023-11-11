@@ -1,7 +1,8 @@
 /**
- * Ini adalah kelas yang merepresentasikan sebuah minimarket.
-Kelas Pegawai adalah turunan dari kelas Person yang merepresentasikan pegawai
- * di minimarket. 
+ * Write a description of class Pegawai here.
+ *
+ * @author Willy J.A. & Raihan F.
+ * @version 5 nov 2023
  */
 public class Pegawai extends Person {
     private double salary;
