@@ -24,6 +24,8 @@ public class Pembeli extends Person {
     public double getBalance() {
         return balance;
     }
+
+    
      public void setBalance(double balance) {
         this.balance = balance;
     }
