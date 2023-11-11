@@ -1,5 +1,6 @@
 /**
- * Kelas Pegawai adalah turunan dari kelas Person yang merepresentasikan pegawai
+ * Ini adalah kelas yang merepresentasikan sebuah minimarket.
+Kelas Pegawai adalah turunan dari kelas Person yang merepresentasikan pegawai
  * di minimarket. 
  */
 public class Pegawai extends Person {
