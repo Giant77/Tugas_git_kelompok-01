@@ -3,7 +3,7 @@
  *
  * @author Willy J.A. & Raihan F.
  * @version 5 nov 2023
- */
+ *//
 public abstract class Person {
     private String name;
 
